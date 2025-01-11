@@ -1,0 +1,135 @@
+#root {
+    display: flex;
+    min-height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.App {
+    display: flex;
+    width: 1900px;
+    height: 1000px;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-man {
+    display: flex;
+    align-items: center;
+    width: 510px;
+    height: 520px;
+}
+
+#man-img {
+    padding-top: 20px;
+    height: 500px;
+}
+
+.center-block {
+    font-family: "Roboto", serif;
+    color: #4D4D4D;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.img-woman {
+    height: 520px;
+    display: flex;
+    align-items: center;
+    width: 510px;
+    justify-content: center;
+}
+
+#woman-img {
+    padding-bottom: 55px;
+    height: 600px;
+}
+
+.Stintikss_heading {
+    width: 400px;
+    display: flex;
+    font-size: 45px;
+    justify-content: center;
+}
+
+.Stintikss_heading p {
+    margin-top: 0px;
+}
+
+.addition-to-do {
+    width: 425px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 23px;
+}
+
+.addition-to-do p {
+    margin-top: 0px;
+}
+
+.button-go-work button{
+    width: 250px;
+    height: 60px;
+    background-color: rgb(17 101 219 / 77%);
+    border: none;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.47);
+    font-family: "Roboto", serif;
+    font-weight: 600;
+    font-size: 22px;
+    color: #ffff;
+}
+
+.download {
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+}
+
+.download-text {
+    color: #676767;
+    font-size: 21px;
+    display: flex;
+    justify-content: center;
+}
+
+.download-text p {
+    margin-bottom: 0px;
+}
+
+.android, .windows, .apple {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+    height: 55px;
+    border: 1px solid #676767;
+}
+
+.windows, .apple {
+    margin-left: 10px;
+}
+
+.android img, .windows img, .apple img {
+    padding-top: 5px;
+    padding-right: 5px;
+    height: 50px;
+}
+
+.platform-downl {
+    display: flex;
+}
+
+.social img {
+    height: 45px;
+}
+
+.social {
+    display: flex;
+    height: 105px;
+    align-items: center;
+}

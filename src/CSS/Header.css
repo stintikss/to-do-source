@@ -1,0 +1,147 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    background-color: #fff;
+  }
+  
+  .header__logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .header__logo-img {
+    height: 55px;
+  }
+  
+  .header__nav {
+    font-family: "Rubik", serif;
+    color: rgba(0, 0, 0, 0.7216);
+    display: flex;
+    gap: 90px;
+  }
+  
+  .header__nav a {
+    text-decoration: none;
+    color: #333;
+    font-size: 23px;
+  }
+  
+  .header__actions {
+    display: flex;
+    gap: 30px;
+  }
+  
+  .header__download {
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4A90E2;
+    font-family: "Rubik", serif;
+    font-weight: bold;
+    color: #fff;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.47);
+    width: 135px;
+    height: 50px;
+  }
+
+  .header__login img {
+    height: 40px;
+  }
+
+  .header__login {
+    align-items: center;
+    gap: 10px;
+    display: flex;
+  }
+
+  .header__login p {
+    font-family: "Rubik", serif;
+    font-size: 21px;
+  }
+  
+  .button_down {
+    display: flex;
+    align-items: center;
+  }
+  
+
+@media (max-width: 1490px) {
+    .header__nav a {
+        font-size: 21px;
+    }
+
+    .header__login p {
+        font-size: 19px;
+    }
+
+    .header__nav {
+        gap: 70px;
+    }
+}
+
+@media (max-width: 1300px) {
+    .header__login p {
+        display: none;
+    }
+
+    .header__login img {
+        height: 35px;
+    }
+
+    .header__download {
+        font-size: 15px;
+        width: 120px;
+        height: 40px;
+    }
+
+    .header__actions {
+        gap: 20px;
+    }
+
+    .header {
+        border-bottom: 1px solid #e0e0e0;
+    }
+}
+
+@media (max-width: 1170px) {
+    .header__nav {
+      width: 450px;
+      padding: 0px 20px;
+      display: flex;
+      flex-wrap: wrap; /* Элементы оборачиваются */
+      gap: 10px; /* Уменьшаем расстояние между ссылками */
+      justify-content: center; /* Центрируем ссылки */
+      align-items: center; /* Центрируем элементы по вертикали */
+      /* margin-top: 20px; */
+    }
+  
+    .header__nav a {
+      flex-basis: auto; /* Элементы имеют ширину по контенту */
+      text-align: center; /* Центрируем текст */
+    }
+  
+    /* Для последнего элемента, чтобы он не растягивался */
+    .header__nav a:last-child {
+      flex-grow: 0;
+    }
+
+    .accept {
+        display: none;
+    }
+    
+  }
+
+@media (max-width: 650px) {
+    .header__download {
+        display: none;
+    }
+
+    .header {
+        padding: 10px 25px;
+    }
+}
+  
